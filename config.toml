@@ -1,3 +1,35 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = "https://4klabs.github.io/blog"
+languageCode = "en-us"
+paginate = 5
+theme = "terminal"
+
+[params]
+centerTheme = true
+contentTypeName = "posts"
+fullWidthTheme = false
+readingTime = true
+showLanguageSelector = false
+showLastUpdated = false
+showMenuItems = 2
+staticDir = ["static"]
+themeColor = "blue"
+
+[languages]
+[languages.en]
+copyright = ""
+keywords = ""
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+subtitle = "Backend engineering"
+title = "4klabs"
+
+[languages.en.params.logo]
+logoHomeLink = "/blog"
+logoText = "4klabs"
+
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
